@@ -1,0 +1,39 @@
+/* This is a CSS comment */
+
+/* Styling for all paragraphs */
+p {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.5;
+}
+
+/* Styling for headings with class "title" */
+h1.title {
+    font-size: 24px;
+    color: #FF5733;
+}
+
+/* Styling for a CSS class named "button" */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Styling for links on hover */
+a:hover {
+    text-decoration: underline;
+}
+
+/* Media query for responsive design */
+@media (max-width: 768px) {
+    p {
+        font-size: 14px;
+    }
+    h1.title {
+        font-size: 20px;
+    }
+}
